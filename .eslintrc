@@ -1,0 +1,14 @@
+{
+  "extends": "standard",
+  "plugins": [
+    "vue"
+  ],
+  "rules": {
+    "no-multiple-empty-lines": [
+      1,
+      {
+        "max": 1
+      }
+    ]
+  }
+}

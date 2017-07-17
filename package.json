@@ -1,0 +1,94 @@
+{
+  "name": "myxcel",
+  "version": "1.0.0",
+  "description": "An ultimate excel data show",
+  "scripts": {
+    "build": "node tasks/release.js",
+    "build:clean": "cross-env PLATFORM_TARGET=clean node tasks/release.js",
+    "build:darwin": "cross-env PLATFORM_TARGET=darwin node tasks/release.js",
+    "build:linux": "cross-env PLATFORM_TARGET=linux node tasks/release.js",
+    "build:mas": "cross-env PLATFORM_TARGET=mas node tasks/release.js",
+    "build:win32": "cross-env PLATFORM_TARGET=win32 node tasks/release.js",
+    "dev": "node tasks/runner.js",
+    "postinstall": "cd app && npm install",
+    "vue:route": "node tasks/vue/route.js",
+    "pack_ori:electron-packager": "cross-env NODE_ENV=production webpack -p --progress --colors",
+    "pack": "build --dir",
+    "dist": "build -mwl --ia32 --x64"
+  },
+  "build": {
+    "appId": "com.electron.xcel",
+    "copyright": "Copyright © 2017 hankaibo",
+    "mac": {
+      "category": "public.app-category.utilities",
+      "dmg": {
+        "backgroundColor": "#6190e8",
+        "window": {
+          "width": 540,
+          "height": 380
+        }
+      }
+    },
+    "win": {
+      "iconUrl": "https://github.com/JChehe/XCel/blob/master/app/icons/icon.ico"
+    },
+    "squirrelWindows": {
+      "iconUrl": "https://github.com/JChehe/XCel/blob/master/app/icons/icon.ico"
+    },
+    "nsis": {
+      "language": 2052,
+      "installerHeader": "build/installerHeader.bmp",
+      "installerHeaderIcon": "build/installerHeaderIcon.ico"
+    }
+  },
+  "author": "hankaibo",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.24.1",
+    "babel-eslint": "^7.2.3",
+    "babel-loader": "^7.0.0",
+    "babel-plugin-transform-export-extensions": "^6.22.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "babel-runtime": "^6.23.0",
+    "copy-webpack-plugin": "^4.0.1",
+    "cross-env": "^5.0.0",
+    "css-loader": "^0.28.2",
+    "del": "^2.2.1",
+    "devtron": "^1.1.0",
+    "electron": "^1.6.8",
+    "electron-builder": "^7.18.0",
+    "electron-devtools-installer": "^2.2.0",
+    "electron-packager": "^8.7.0",
+    "electron-rebuild": "^1.1.3",
+    "eslint": "^3.19.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-friendly-formatter": "^3.0.0",
+    "eslint-loader": "^1.7.1",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-node": "^5.1.0",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "eslint-plugin-vue": "^2.0.1",
+    "extract-text-webpack-plugin": "^2.1.0",
+    "file-loader": "^0.11.1",
+    "html-webpack-plugin": "^2.16.1",
+    "json-loader": "^0.5.4",
+    "node-sass": "^4.5.3",
+    "sass-loader": "^6.0.5",
+    "style-loader": "^0.18.1",
+    "tree-kill": "^1.1.0",
+    "url-loader": "^0.5.7",
+    "vue-hot-reload-api": "^2.1.0",
+    "vue-html-loader": "^1.2.2",
+    "vue-loader": "^12.1.0",
+    "vue-style-loader": "^3.0.1",
+    "vue-template-compiler": "^2.3.3",
+    "webpack": "^2.6.0",
+    "webpack-dev-server": "^2.4.5"
+  },
+  "dependencies": {
+    "lodash": "^4.16.6"
+  }
+}
