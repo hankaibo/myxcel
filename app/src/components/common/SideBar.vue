@@ -2,7 +2,7 @@
   <transition name="slide-fade">
     <div id="sidebar" v-show="getSideBarStatus">
       <div class="sidebar_header">
-        <img src="../assets/xcel_logo.png" class="logo" title="XCEL官网" @click="openExternal('xcel')">
+        <img src="../assets/jusfoun_logo.png" class="logo" title="九次方前端" @click="openExternal('xcel')">
         <p>考勤可视化工具</p>
         <a class="hide_sidebar_btn" title="关闭侧边栏" @click="toggleSideBar(false)"> </a>
       </div>

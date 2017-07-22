@@ -18,25 +18,8 @@
       </li>
     </ul>
     <div>
-      <!--<p class="summary_info" v-show="hasFile">
-      				筛选后数据为
-      				<em>{{ Math.min(curFilRowCount, curOriRowCount) }}</em>
-      				行，原始记录为
-      				<em>{{ curOriRowCount }}</em>
-      				行，共
-      				<em>{{ filterAcount }}</em>
-      				个{{ filterWay == 0 ? "保留" : "剔除"}}条件
-      			</p>-->
-      <p class="summary_info" v-show="hasFile">
-        筛选后数据为
-        <em>{{ Math.min(curFilRowCount, curOriRowCount) }}</em>
-        行，原始记录为
-        <em>{{ curOriRowCount }}</em>
-        行，共
-        <em>{{ filterAcount }}</em>
-        个{{ filterWay == 0 ? "保留" : "剔除"}}条件
-      </p>
-      <img src="../assets/O2-icon.png" alt="O2_logo" title="九次方前端" @click="openExternal('aotu')">
+      <p class="summary_info" v-show="hasFile"> 筛选后数据为<em>{{ Math.min(curFilRowCount, curOriRowCount) }}</em>行，原始记录为 <em>{{ curOriRowCount }}</em> 行，共<em>{{ filterAcount }}</em> 个{{ filterWay == 0 ? "保留" : "剔除"}}条件 </p>
+      <img src="../assets/jusfoun-fe_logo.png" alt="jusfoun-fe_logo" title="九次方前端" @click="openExternal('jusfoun-fe')">
     </div>
   </footer>
 </template>
