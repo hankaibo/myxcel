@@ -25,7 +25,7 @@
         </div>
         <div class="update_dialog_content">
           <p>如遇软件使用上的问题，请联系
-            <a @click="openExternal('aotu')">九次方前端
+            <a @click="openExternal('jusfoun-fe')">九次方前端
             </a>。同时，也欢迎你提出宝贵的意见。
           </p>
           <p>问题提交地址：
@@ -33,7 +33,7 @@
             </a>
           </p>
           <div>
-            <img src="../InstructionsPageView/assets/qrcode.jpg" alt="九次方前端二维码">
+            <img src="../InstructionsPageView/assets/qrcode.png" alt="九次方前端二维码">
           </div>
         </div>
         <div class="update_dialog_footer">

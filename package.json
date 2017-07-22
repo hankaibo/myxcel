@@ -30,10 +30,10 @@
       }
     },
     "win": {
-      "iconUrl": "https://github.com/JChehe/XCel/blob/master/app/icons/icon.ico"
+      "iconUrl": "https://github.com/hankaibo/myxcel/blob/master/app/icons/icon.ico"
     },
     "squirrelWindows": {
-      "iconUrl": "https://github.com/JChehe/XCel/blob/master/app/icons/icon.ico"
+      "iconUrl": "https://github.com/hankaibo/myxcel/blob/master/app/icons/icon.ico"
     },
     "nsis": {
       "language": 2052,
