@@ -45,7 +45,7 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped>
+<style lang="scss">
 .bar {
   fill: steelblue;
 }
@@ -64,13 +64,7 @@ export default {
   pointer-events: none;
 }
 
-
-
-
-
-
 /* Creates a small triangle extender for the tooltip */
-
 .d3-tip:after {
   box-sizing: border-box;
   display: inline;
@@ -81,14 +75,7 @@ export default {
   position: absolute;
   pointer-events: none;
 }
-
-
-
-
-
-
 /* Northward tooltips */
-
 .d3-tip.n:after {
   content: "\25BC";
   margin: -1px 0 0 0;
@@ -96,28 +83,14 @@ export default {
   left: 0;
   text-align: center;
 }
-
-
-
-
-
-
 /* Eastward tooltips */
-
 .d3-tip.e:after {
   content: "\25C0";
   margin: -4px 0 0 0;
   top: 50%;
   left: -8px;
 }
-
-
-
-
-
-
 /* Southward tooltips */
-
 .d3-tip.s:after {
   content: "\25B2";
   margin: 0 0 1px 0;
@@ -125,14 +98,7 @@ export default {
   left: 0;
   text-align: center;
 }
-
-
-
-
-
-
 /* Westward tooltips */
-
 .d3-tip.w:after {
   content: "\25B6";
   margin: -4px 0 0 -1px;

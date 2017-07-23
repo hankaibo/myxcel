@@ -16,31 +16,6 @@
     "pack": "build --dir",
     "dist": "build -mwl --ia32 --x64"
   },
-  "build": {
-    "appId": "com.electron.xcel",
-    "copyright": "Copyright © 2017 hankaibo",
-    "mac": {
-      "category": "public.app-category.utilities",
-      "dmg": {
-        "backgroundColor": "#6190e8",
-        "window": {
-          "width": 540,
-          "height": 380
-        }
-      }
-    },
-    "win": {
-      "iconUrl": "https://github.com/hankaibo/myxcel/blob/master/app/icons/icon.ico"
-    },
-    "squirrelWindows": {
-      "iconUrl": "https://github.com/hankaibo/myxcel/blob/master/app/icons/icon.ico"
-    },
-    "nsis": {
-      "language": 2052,
-      "installerHeader": "build/installerHeader.bmp",
-      "installerHeaderIcon": "build/installerHeaderIcon.ico"
-    }
-  },
   "author": "hankaibo",
   "license": "MIT",
   "devDependencies": {

@@ -10,11 +10,11 @@
 
 <script>
 import windowTop from './components/common/WindowTop'
-// import crashTempate from '../crashTempate'
+import crashTempate from '../crashTempate'
 import UpdateDialog from './components/common/UpdateDialog'
 import { mapGetters, mapActions } from 'vuex'
 
-// crashTempate.start()
+crashTempate.start()
 export default {
   components: {
     windowTop,
