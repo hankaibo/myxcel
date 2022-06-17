@@ -32,7 +32,7 @@
     "css-loader": "^0.28.2",
     "del": "^2.2.1",
     "devtron": "^1.1.0",
-    "electron": "^1.6.8",
+    "electron": "^15.5.5",
     "electron-builder": "^7.18.0",
     "electron-devtools-installer": "^2.2.0",
     "electron-packager": "^8.7.0",
